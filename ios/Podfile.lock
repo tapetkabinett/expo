@@ -4192,7 +4192,7 @@ SPEC CHECKSUMS:
   boost: a7c83b31436843459a1961bfd74b96033dc77234
   Branch: 9a37f707974a128c37829033c49018b79c7e7a2d
   CocoaLumberjack: 2f44e60eb91c176d471fdba43b9e3eae6a721947
-  DoubleConversion: 831926d9b8bf8166fd87886c4abab286c2422662
+  DoubleConversion: cf9b38bf0b2d048436d9a82ad2abe1404f11e7de
   EXAdsAdMob: ac13d1a8fd689e3ac74b63100b13d24f3ea0ff1f
   EXAdsFacebook: 9697b91f55d254ebe4c3a1ddba9c76dfa8302775
   EXAmplitude: f346f64108b628046524182a8cc30df407643dc9
@@ -4260,7 +4260,7 @@ SPEC CHECKSUMS:
   EXStructuredHeaders: 7469fed1192a7794be7093fb873798bdf10d5f6e
   EXTaskManager: 53bcb908457ff6282ffb1e31c25c0656e3725161
   EXTrackingTransparency: 0622e1c7e10f5cae378f6d77dc6fdf433c9a7d81
-  EXUpdates: be270fbdfcd531a8086504c7edecd1e9e7e29f0d
+  EXUpdates: 193989e0f92f7aaa6aa1332ed5f2551261f9c430
   EXUpdatesInterface: f459b515151bd73fff7a35366eace34a6c6a0d3f
   EXVideoThumbnails: 847d648d6f4bc0c1afad05caa56a487dc543445e
   FacebookSDK: 4b9bb8e2824898b47f18c666dc145c09b40609e6
@@ -4274,7 +4274,7 @@ SPEC CHECKSUMS:
   FirebaseCoreDiagnostics: 3d36e05da74cb8b7ce30e6594a8f201b982c725c
   FirebaseInstallations: a58d4f72ec5861840b84df489f2668d970df558a
   fmt: ff9d55029c625d3757ed641535fd4a75fedc7ce9
-  glog: 85ecdd10ee8d8ec362ef519a6a45ff9aa27b2e85
+  glog: 73c2498ac6884b13ede40eda8228cb1eee9d9d62
   Google-Maps-iOS-Utils: c32891ff472eaaa1fca032beedafa1a013af7875
   Google-Mobile-Ads-SDK: 2f288748a42920d1c744946a460896a95b0e9110
   GoogleAppMeasurement: 0c3b134b2c0a90c4c24833873894bfe0e42a0384
