@@ -2,12 +2,11 @@
 
 import ExpoModulesCore
 
-public class EASClientIdModule: Module {
+public class EASClientIDModule: Module {
   public func definition() -> ModuleDefinition {
-    name("EASClientId")
-
-    function("getClientIdAsync") {
-      EASClientId.uuid.uuidString
-    }
+    name("EASClientID")
+    constants([
+      "clientID": EASClientID.uuid.uuidString
+    ])
   }
 }

@@ -2,11 +2,9 @@
 
 import Foundation
 
-@objc
-public class EASClientId : NSObject {
-  private static let EAS_CLIENT_ID_SHARED_PREFERENCES_KEY = "eas-client-id"
-  
-  @objc
+public struct EASClientID {
+  private static let EAS_CLIENT_ID_SHARED_PREFERENCES_KEY = "expo.eas-client-id"
+
   public static var uuid: UUID = {
     return UUID.init(uuidString: UserDefaults.standard.computeStringIfAbsent(forKey: EAS_CLIENT_ID_SHARED_PREFERENCES_KEY) {
       UUID.init().uuidString
