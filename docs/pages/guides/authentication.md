@@ -1232,13 +1232,12 @@ export default function App() {
   React.useEffect(() => {
     if (response?.type === 'success') {
       /* @info Use this access token to interact with user data on the provider's server. */
-      const { id_token } = response.params;
+      const { id_token, access_token } = response.params;
       /* @end */
 
       /* @info Create a Google credential with the <code>id_token</code> */
       const auth = getAuth();
-      const provider = new GoogleAuthProvider();
-      const credential = provider.credential(id_token);
+      const credential = GoogleAuthProvider.credential(id_token, access_token);
       /* @end */
       signInWithCredential(auth, credential);
     }
